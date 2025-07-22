@@ -6,8 +6,9 @@ import arrowIcon from '@/public/assets/arrow-icon.png';
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-between px-6 py-4">
-            <a href="#">
+        <nav className='flex items-center justify-between py-4 w-full fixed px-5 lg:px-8 xl:[8%]
+        z-50'>
+            <a href="#top">
                 <Image
                     src={logo}
                     alt="Logo"
@@ -16,16 +17,16 @@ const Navbar = () => {
                     className="cursor-pointer mr-14"
                 />
             </a>
-            <ul className="flex gap-6">
+            <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3">
                 <li><a href="#top">Ana Sayfa</a></li>
                 <li><a href="#aboutme">Hakkımda</a></li>
                 <li><a href="#services">Servisler</a></li>
                 <li><a href="#mywork">İşlerim</a></li>
             </ul>
-            <div className="flex items-center gap-1">
-                <a href="#contact" className="flex items-center">
+            <div className="">
+                <a href="#contact" className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4">
                     İletişim
-                    <Image src={arrowIcon} alt="İletişim ikonu" width={12} height={12} className="ml-1" />
+                    <Image src={arrowIcon} alt="İletişim ikonu" width={12} height={12} className="w-3" />
                 </a>
             </div>
         </nav>
