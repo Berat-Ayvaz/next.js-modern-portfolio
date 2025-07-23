@@ -7,4 +7,9 @@
   --color-darkTheme: #11001F;
   --color-darkHover: #2a004a;
   --color-lightHover: #fcf4ff;
+  
+}
+@theme {
+  --font-weight-Ovo: 400; 
+  --font-weight-Outfit: 400;
 }
