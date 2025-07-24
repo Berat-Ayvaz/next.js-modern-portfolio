@@ -26,6 +26,7 @@ const Navbar = () => {
                 alt='Header Background Color'
                 className='w-full'
             />
+
             </div>
             <nav className='flex items-center justify-between py-4 w-full fixed px-5 lg:px-8 xl:[8%]
         z-50'>
