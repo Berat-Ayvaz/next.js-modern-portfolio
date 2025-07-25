@@ -39,17 +39,10 @@ const Navbar = () => {
                     />
                 </a>
                 <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50">
-<<<<<<< HEAD
                     <li><a className='font-ovo' href="#top">Home</a></li>
                     <li><a className='font-ovo' href="#aboutme">About me</a></li>
                     <li><a className='font-ovo' href="#services">Services</a></li>
                     <li><a className='font-ovo' href="#mywork">My work</a></li>
-=======
-                    <li><a className='font-ovo' href="#top">Ana Sayfa</a></li>
-                    <li><a className='font-ovo' href="#aboutme">Hakkımda</a></li>
-                    <li><a className='font-ovo' href="#services">Servisler</a></li>
-                    <li><a className='font-ovo' href="#mywork">İşlerim</a></li>
->>>>>>> 52cc42667ae2d6b6dd98dffea1bec6ad90454258
                 </ul>
                 <div className="flex items-center gap-4">
                     <button className=''><Image
@@ -80,17 +73,10 @@ const Navbar = () => {
                             className='w-5 cursor-pointer'
                         />
                     </div>
-<<<<<<< HEAD
                     <li><a className='font-ovo' onClick={closeMenu} href="#top">Home</a></li>
                     <li><a className='font-ovo' onClick={closeMenu} href="#aboutme">About me</a></li>
                     <li><a className='font-ovo' onClick={closeMenu} href="#services">Services</a></li>
                     <li><a className='font-ovo' onClick={closeMenu} href="#mywork">My work</a></li>
-=======
-                    <li><a className='font-ovo' onClick={closeMenu} href="#top">Ana Sayfa</a></li>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#aboutme">Hakkımda</a></li>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#services">Servisler</a></li>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#mywork">İşlerim</a></li>
->>>>>>> 52cc42667ae2d6b6dd98dffea1bec6ad90454258
                 </ul>
             </nav>
 
