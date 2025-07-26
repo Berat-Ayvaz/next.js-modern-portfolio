@@ -29,7 +29,7 @@ const Header = () => {
                 I gained practical knowledge of both frontend and backend processes.
                 I am constantly improving myself and building modern web applications with a full-stack mindset.
             </p>
-            <a href="#contact" >Contact me<Image
+            <a href="#contact" className='px-10 py-3 border border-white flex items-center rounded-full bg-black text-white gap-2' >Contact me<Image
                 alt="right icon"
                 src={righticon}
                 className='w-4' /></a>
