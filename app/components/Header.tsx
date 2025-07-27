@@ -20,9 +20,9 @@ const Header = () => {
                 Hello Everyone! I am Berat Ayvaz <Image src={handicon} alt='hand icon' className='w-6' />
             </h3>
             <h1 className='text-3xl sm:text:6xl lg:text-[66px] font-ovo'>
-                Full-stack Web Developer based in Türkiye
+                Front-end Web Developer based in Türkiye
             </h1>
-            <p className='max-w-2xl mx-auto font-ovo'>I’m a developer who enjoys coding and designing user interfaces. 
+            <p className='max-w-2xl mx-auto font-ovo'>I am a developer who enjoys coding and designing user interfaces. 
                 I love creating modern solutions to real-world problems.
             </p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
