@@ -4,12 +4,15 @@
   font-family: outfit;
 }
 @theme {
-  --color-darkTheme: #11001F;
+  --color-darkTheme: #11001f;
   --color-darkHover: #2a004a;
   --color-lightHover: #fcf4ff;
-  
 }
 @theme {
-  --font-weight-ovo: 400; 
+  --font-weight-ovo: 400;
   --font-weight-outfit: 400;
+}
+@theme {
+  --shadow-black: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
 }
