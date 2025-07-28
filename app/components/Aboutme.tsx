@@ -9,12 +9,12 @@ const AboutMe = () => {
     <div id='aboutme' className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='text-center mb-2 text-lg font-ovo'>Introduction</h4>
       <h2 className='text-center text-5xl font-ovo'>About me</h2>
-      <div className='flex w-full flex-col lg:flex-row items-center justify-center mt-20 gap-20'>
+      <div className='flex w-full flex-col lg:flex-row items-center justify-center mt-5 gap-20'>
         <div className='w-80 sm:w-100 max-w-none'>
           <Image src={profilephoto} alt='Profile Photo' className='max-w-full rounded-2xl lg:mb-20' />
         </div>
         <div className='flex-1'>
-          <p className='mb-5 lg:mb-10 max-w-2xl font-ovo'>
+          <p className='mb-5 lg:mb-8 max-w-2xl font-ovo'>
             I graduated from Mersin University with a
             degree in Management Information Systems.
             I have hands-on experience in Front-end
