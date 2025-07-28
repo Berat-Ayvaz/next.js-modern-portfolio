@@ -49,11 +49,11 @@ const Navbar = () => {
                     />
                 </a>
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${IsScroll ? "" : "bg-white/50 shadow-sm"} `}>
-                    <li><a className='font-ovo' href="#top">Home</a></li>
-                    <li><a className='font-ovo' href="#aboutme">About me</a></li>
-                    <li><a className='font-ovo' href="#services">Services</a></li>
-                    <li><a className='font-ovo' href="#mywork">My work</a></li>
-                    <li><a className='font-ovo' href="#contactme">Contact me</a></li>
+                    <li><a className='font-ovo' href="#Top">Home</a></li>
+                    <li><a className='font-ovo' href="#Aboutme">About me</a></li>
+                    <li><a className='font-ovo' href="#Services">Services</a></li>
+                    <li><a className='font-ovo' href="#Mywork">My work</a></li>
+                    <li><a className='font-ovo' href="#Contactme">Contact me</a></li>
                 </ul>
                 <div className="flex items-center gap-4">
                     <button className=''><Image
@@ -83,11 +83,11 @@ const Navbar = () => {
                             className='w-5 cursor-pointer'
                         />
                     </div>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#top">Home</a></li>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#aboutme">About me</a></li>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#services">Services</a></li>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#mywork">My work</a></li>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#contactme">Contact me</a></li>
+                    <li><a className='font-ovo' onClick={closeMenu} href="#Top">Home</a></li>
+                    <li><a className='font-ovo' onClick={closeMenu} href="#Aboutme">About me</a></li>
+                    <li><a className='font-ovo' onClick={closeMenu} href="#Services">Services</a></li>
+                    <li><a className='font-ovo' onClick={closeMenu} href="#Mywork">My work</a></li>
+                    <li><a className='font-ovo' onClick={closeMenu} href="#Contactme">Contact me</a></li>
                 </ul>
             </nav>
         </>

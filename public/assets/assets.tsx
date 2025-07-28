@@ -88,8 +88,8 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Crafting visually appealing and responsive interfaces using modern tools like HTML, CSS, and Figma to deliver clean and user-friendly web layouts.', link: '' },
-    { icon: assets.mobile_icon, title: ' Visual Design', description: 'Creating engaging visual assets that reflect brand identity, enhance communication, and elevate the user experience across web and mobile platforms.', link: '' },
+    { icon: assets.web_icon, title: 'Web design', description: 'Crafting visually appealing and responsive interfaces using modern tools like HTML, CSS, and Figma to deliver clean and user-friendly web layouts.', link: '#' },
+    { icon: assets.mobile_icon, title: ' Visual Design', description: 'Creating engaging visual assets that reflect brand identity, enhance communication, and elevate the user experience across web and mobile platforms.', link: '#' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'Designing intuitive, accessible, and modern user experiences by combining aesthetic visuals with usability principles to ensure smooth user journeys.', link: '' },
     { icon: assets.graphics_icon, title: ' Web Development', description: 'Building dynamic and efficient web applications using technologies such as JavaScript, React.js, and Next.js — from frontend to backend integration.', link: '' },
 ]
