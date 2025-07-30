@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Aboutme from './components/Aboutme';
 import Services from './components/Services';
-import Mywork from './components/Mywork';
+import Work from './components/Work';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <Aboutme />
       <Services />
-      <Mywork/>
+      <Work />
     </main>
 
   );

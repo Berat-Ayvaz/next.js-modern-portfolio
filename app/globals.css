@@ -16,9 +16,10 @@
   --shadow-black: 4px 4px 0 #000;
   --shadow-white: 4px 4px 0 #fff;
 }
+
 /* özel grid yapısı tanımlama */
 @layer utilities {
   .grid-cols-auto-fit {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }

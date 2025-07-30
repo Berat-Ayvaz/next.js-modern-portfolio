@@ -66,24 +66,24 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Responsive Tech Blog',
+        description: 'HTML,Css,JavaScript',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Movie Website',
+        description: 'HTML,Tailwind CSS',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Mobile Responsive Website',
+        description: 'HTML,Tailwind CSS',
+        bgImage: '/work-4.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Hospital Website',
+        description: 'HTML,Css,JavaScript,Bootstrap',
+        bgImage: '/work-3.png',
     },
 ]
 

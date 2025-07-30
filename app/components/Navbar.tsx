@@ -52,7 +52,7 @@ const Navbar = () => {
                     <li><a className='font-ovo' href="#Top">Home</a></li>
                     <li><a className='font-ovo' href="#Aboutme">About me</a></li>
                     <li><a className='font-ovo' href="#Services">Services</a></li>
-                    <li><a className='font-ovo' href="#Mywork">My work</a></li>
+                    <li><a className='font-ovo' href="#Work">My work</a></li>
                     <li><a className='font-ovo' href="#Contactme">Contact me</a></li>
                 </ul>
                 <div className="flex items-center gap-4">
@@ -86,7 +86,7 @@ const Navbar = () => {
                     <li><a className='font-ovo' onClick={closeMenu} href="#Top">Home</a></li>
                     <li><a className='font-ovo' onClick={closeMenu} href="#Aboutme">About me</a></li>
                     <li><a className='font-ovo' onClick={closeMenu} href="#Services">Services</a></li>
-                    <li><a className='font-ovo' onClick={closeMenu} href="#Mywork">My work</a></li>
+                    <li><a className='font-ovo' onClick={closeMenu} href="#Work">My work</a></li>
                     <li><a className='font-ovo' onClick={closeMenu} href="#Contactme">Contact me</a></li>
                 </ul>
             </nav>
