@@ -6,7 +6,7 @@ import send_icon from '@/public/assets/send-icon.png'
 
 const Work = () => {
     return (
-        <div id='Work' className='w-full px-[12%] py-10 scroll-mt-20'>
+        <div id='Work' className='w-full h-500 py-10 scroll-mt-20'>
             <h4 className='text-center mb-2 text-lg font-ovo mt-10'>My portfolio</h4>
             <h2 className='text-center text-5xl font-ovo'>My latest work</h2>
             <p className='font-ovo flex items-center justify-center pt-5'>
@@ -18,16 +18,16 @@ const Work = () => {
             <div className='grid grid-cols-auto-fit gap-5 my-10'>
                 {workData.map((project, index) => (
                     <div key={index}
-                        className=''>
+                        className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'>
                         <Image
                             src={project.bgImage}
                             alt={project.title}
                             width={500}
                             height={400}
-                            className='aspect-square bg-no-repeatbg-cover rounded-lg relative cursor-pointer group'
+                            className=''
                         />
 
-                        <div className='absolute'>
+                        <div>
                             <h2>{project.title}
                                 <p>{project.description}</p>
                             </h2>
