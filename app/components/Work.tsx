@@ -15,27 +15,23 @@ const Work = () => {
             <p className='font-ovo flex items-center justify-center '>
                 my expertise in front-end development.
             </p>
-            <div className='grid grid-cols-auto-fit gap-5 my-10'>
+            <div className='grid grid-cols-auto-fit gap-5 my-10 px-5 md:px-20 lg:px-20'>
                 {workData.map((project, index) => (
                     <div key={index}
-                        className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'>
-                        <Image
-                            src={project.bgImage}
-                            alt={project.title}
-                            width={500}
-                            height={400}
-                            className=''
-                        />
-
-                        <div>
-                            <h2>{project.title}
-                                <p>{project.description}</p>
-                            </h2>
-                        </div>
-                        <div>
-                            <Image
-                                src={send_icon}
-                                alt='send icon' />
+                        className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
+                        style={{ backgroundImage: `url(${project.bgImage})` }}
+                    >
+                        <div className='bg-white w-10/12 rounded-md absolute mt-50'>
+                            <div>
+                                <h2>{project.title}
+                                    <p>{project.description}</p>
+                                </h2>
+                            </div>
+                            <div>
+                                <Image
+                                    src={send_icon}
+                                    alt='send icon' />
+                            </div>
                         </div>
 
                     </div>
