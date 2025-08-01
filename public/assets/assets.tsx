@@ -67,7 +67,7 @@ export const assets = {
 export const workData = [
     {
         title: 'Responsive Tech Blog',
-        description: 'HTML,Css,JavaScript',
+        description: 'HTML,CSS,JavaScript',
         bgImage: '/work-1.png',
     },
     {
@@ -82,7 +82,7 @@ export const workData = [
     },
     {
         title: 'Hospital Website',
-        description: 'HTML,Css,JavaScript,Bootstrap',
+        description: 'HTML,CSS,JavaScript,Bootstrap',
         bgImage: '/work-3.png',
     },
 ]
