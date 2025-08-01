@@ -67,17 +67,17 @@ export const assets = {
 export const workData = [
     {
         title: 'Responsive Tech Blog',
-        description: 'HTML,CSS,JavaScript',
+        description: 'HTML, CSS, JavaScript',
         bgImage: '/work-1.png',
     },
     {
         title: 'Movie Website',
-        description: 'HTML,Tailwind CSS',
+        description: 'HTML, Tailwind CSS',
         bgImage: '/work-2.png',
     },
     {
         title: 'Mobile Responsive Website',
-        description: 'HTML,Tailwind CSS',
+        description: 'HTML, Tailwind CSS',
         bgImage: '/work-4.png',
     },
     {
