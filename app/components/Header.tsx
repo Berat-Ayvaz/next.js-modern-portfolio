@@ -22,7 +22,7 @@ const Header = () => {
             <h1 className='text-3xl sm:text:6xl lg:text-[66px] font-ovo'>
                 Front-end Web Developer based in Türkiye
             </h1>
-            <p className='max-w-2xl mx-auto font-ovo'>I am a developer who enjoys coding and designing user interfaces. 
+            <p className='max-w-2xl mx-auto font-ovo mt-5 mb-12'>I am a developer who enjoys coding and designing user interfaces. 
                 I love creating modern solutions to real-world problems.
             </p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
