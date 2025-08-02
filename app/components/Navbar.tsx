@@ -1,13 +1,8 @@
 'use client';
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
-import logo from '@/public/assets/logo (2).png';
-import headercolor from '@/public/assets/header-bg-color.png';
-import arrowIcon from '@/public/assets/arrow-icon.png';
-import moonIcon from '@/public/assets/moon_icon.png';
-import menu_black from '@/public/assets/menu-black.png';
-import close_black from '@/public/assets/close-black.png';
 import { assets } from '@/public/assets/assets'
+
 const Navbar = () => {
     const [IsScroll, setIsScroll] = React.useState(false);
     const sideMenuRef = useRef<HTMLUListElement>(null);
@@ -42,7 +37,7 @@ const Navbar = () => {
         z-50 ${IsScroll ? "bg-white/75 backdrop-blur-lg shadow-sm" : ""}`}>
                 <a href="#top">
                     <Image
-                        src={assets.logo_dark}
+                        src={assets.logo}
                         alt="Logo"
                         width={112}
                         height={32}

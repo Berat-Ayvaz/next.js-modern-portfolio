@@ -1,6 +1,7 @@
 import React from 'react'
 import {assets} from '@/public/assets/assets'
 import Image from 'next/image';
+
 const contact = () => {
     return (
         <div id='Contact-me' className='w-full px-[12%] py-10 scroll-mt-20 '

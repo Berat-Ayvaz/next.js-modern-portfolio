@@ -1,9 +1,7 @@
 import React from 'react'
 import { workData } from '@/public/assets/assets'
+import {assets} from '@/public/assets/assets';
 import Image from 'next/image'
-import send_icon from '@/public/assets/send-icon.png'
-import right_arrow from '@/public/assets/right-arrow.png'
-
 
 const Work = () => {
     return (
@@ -31,7 +29,7 @@ const Work = () => {
                             </div>
                             <div className='flex items-center justify-center border rounded-full border-black w-9   aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition-all duration-500'>
                                 <Image
-                                    src={send_icon}
+                                    src={assets.send_icon}
                                     alt='send icon'
                                     className='w-5' />
                             </div>
@@ -41,7 +39,7 @@ const Work = () => {
             </div>
             <a href="#" className='w-max flex items-center justify-center gap-2  text-gray-700 border-[0.5px] border-gray-700 rounded-full px-10 mx-auto py-3 my-20  hover:bg-lightHover  hover:text-black trasition duration-500'>
                 Show more <Image
-                    src={right_arrow}
+                    src={assets.right_arrow}
                     alt='Right Arrow'
                     className='w-4' />
             </a>

@@ -1,8 +1,7 @@
 import React from 'react'
 import { serviceData } from '@/public/assets/assets'
+import { assets } from "@/public/assets/assets";;
 import Image from 'next/image'
-import rightnow from '@/public/assets/right-arrow.png'
-
 
 const Services = () => {
     return (
@@ -21,14 +20,12 @@ const Services = () => {
                             {description}
                         </p>
                         <a href={link} className='flex items-center gap-2 text-sm mt-5'>Read more
-                            <Image src={rightnow} alt='right arrow' className='w-4' />
+                            <Image src={assets.right_arrow} alt='right arrow' className='w-4' />
                         </a>
                     </div>
                 ))}
             </div>
         </div>
-
-
     )
 }
 

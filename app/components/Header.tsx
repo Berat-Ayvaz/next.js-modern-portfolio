@@ -2,7 +2,6 @@
 import {assets} from '@/public/assets/assets'
 import Image from 'next/image';
 
-
 const Header = () => {
     return (
         <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
