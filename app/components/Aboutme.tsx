@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import profilephoto from '@/public/assets/profilephotos.jpg'
+import {assets} from '@/public/assets/assets'
 import { infoList } from '@/public/assets/assets'
 
 const AboutMe = () => {
@@ -11,7 +11,7 @@ const AboutMe = () => {
       <h2 className='text-center text-5xl font-ovo'>About me</h2>
       <div className='flex w-full flex-col lg:flex-row items-center justify-center mt-5 gap-20'>
         <div className='w-80 sm:w-100 max-w-none'>
-          <Image src={profilephoto} alt='Profile Photo' className='max-w-full rounded-2xl lg:mb-20' />
+          <Image src={assets.profile_img} alt='Profile Photo' className='max-w-full rounded-2xl lg:mb-20' />
         </div>
         <div className='flex-1'>
           <p className='mb-5 lg:mb-8 max-w-2xl font-ovo'>

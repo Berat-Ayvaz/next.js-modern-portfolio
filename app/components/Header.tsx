@@ -1,8 +1,5 @@
 'use client';
-import myprofile from '@/public/assets/profilephotos.jpg';
-import handicon from '@/public/assets/hand-icon.png';
-import righticon from '@/public/assets/right-arrow.png';
-import resumeicon from '@/public/assets/download-icon.png';
+import {assets} from '@/public/assets/assets'
 import Image from 'next/image';
 
 
@@ -13,11 +10,11 @@ const Header = () => {
             <div>
                 <Image
                     alt="My Profile"
-                    src={myprofile}
+                    src={assets.profile_img}
                     className='rounded-full w-32 mt-20' />
             </div>
             <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>
-                Hello Everyone! I am Berat Ayvaz <Image src={handicon} alt='hand icon' className='w-6' />
+                Hello Everyone! I am Berat Ayvaz <Image src={assets.hand_icon} alt='hand icon' className='w-6' />
             </h3>
             <h1 className='text-3xl sm:text:6xl lg:text-[66px] font-ovo'>
                 Front-end Web Developer based in Türkiye
@@ -29,12 +26,12 @@ const Header = () => {
                 <a href="#contact" className='px-10 py-3 border border-white flex items-center rounded-full bg-black text-white gap-2' >
                     Contact me<Image
                         alt="right icon"
-                        src={righticon}
+                        src={assets.right_arrow}
                         className='w-4' /></a>
                 <a href="/public/Berat_AYVAZ_CV.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
                     My resume<Image
                         alt="resume icon"
-                        src={resumeicon}
+                        src={assets.download_icon}
                         className='w-4' /></a>
             </div>
         </div>
