@@ -39,9 +39,7 @@ const Navbar = () => {
                     <Image
                         src={assets.logo}
                         alt="Logo"
-                        width={112}
-                        height={32}
-                        className="cursor-pointer mr-14"
+                        className="w-18 md:w-28 cursor-pointer mr-14"
                     />
                 </a>
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${IsScroll ? "" : "bg-white/50 shadow-sm"} `}>
@@ -57,7 +55,7 @@ const Navbar = () => {
                         alt='moon icon'
                         className='w-8 h-8 hidden lg:block mr-5 rounded-full p-1 hover:bg-gray-200 transition duration-500 cursor-pointer'
                     /></button>
-                    <a href="#Contact" className=" hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo  hover:bg-gray-200 transition duration-500">
+                    <a href="#Contact-" className=" hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo  hover:bg-gray-200 transition duration-500">
                         Contact
                         <Image src={assets.arrow_icon} alt="İletişim ikonu" className="w-3" />
                     </a>
