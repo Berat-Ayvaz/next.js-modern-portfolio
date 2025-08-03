@@ -29,8 +29,14 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import linkedIn from '../linkedin-tile.svg';
+import github from '../github-mark.svg';
+import codapen from '../codapen.png'
 
 export const assets = {
+    codapen,
+    github,
+    linkedIn,
     logo,
     code_icon,
     code_icon_dark,
