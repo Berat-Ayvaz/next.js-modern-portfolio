@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: outfit;
+}
+@theme {
+  --color-darkTheme: #11001f;
+  --color-darkHover: #2a004a;
+  --color-lightHover: #fcf4ff;
+}
+@theme {
+  --font-weight-ovo: 400;
+  --font-weight-outfit: 400;
+}
+@theme {
+  --shadow-black: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
+}
+
+/* özel grid yapısı tanımlama */
+@layer utilities {
+  .grid-cols-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
