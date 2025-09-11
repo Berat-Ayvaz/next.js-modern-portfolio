@@ -1,5 +1,7 @@
+'use client';
 import { ReactNode } from 'react';
 import { Outfit, Ovo } from 'next/font/google';
+import { ThemeProvider } from 'next-themes';
 import './globals.css';
 
 const outfit = Outfit({
@@ -20,11 +22,12 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="tr" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body className={`${outfit.variable} ${ovo.variable} antialiased leading-8 overflow-x-hidden`}>
-        {children}
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
 }
-
