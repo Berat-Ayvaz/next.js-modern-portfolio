@@ -57,8 +57,6 @@ const Contact = () => {
                         alt='Right icon' className='w-4'
                     />
                 </button>
-
-                <p className='mt-4 border-2 mx-auto rounded-4xl inline-block px-7 py-3'>hello {result}</p>
             </form>
         </div>
     )
