@@ -32,6 +32,7 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import linkedIn from '../linkedin-tile.svg';
 import github from '../github-mark.svg';
 import codapen from '../codapen.png'
+import { link } from 'fs';
 
 export const assets = {
     codapen,
@@ -71,27 +72,32 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Responsive Tech Blog',
-        description: 'HTML, CSS, JavaScript',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Movie Website',
-        description: 'HTML, Tailwind CSS',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Mobile Responsive Website',
-        description: 'HTML, Tailwind CSS',
-        bgImage: '/work-4.png',
-    },
-    {
-        title: 'Hospital Website',
-        description: 'HTML,CSS,JavaScript,Bootstrap',
-        bgImage: '/work-3.png',
-    },
+  {
+    title: 'Responsive Tech Blog',
+    description: 'HTML, CSS, JavaScript',
+    bgImage: '/work-1.png',
+    link: 'https://berat-ayvaz.github.io/Technology-WebSite-main/',
+  },
+  {
+    title: 'Movie Website',
+    description: 'HTML, Tailwind CSS',
+    bgImage: '/work-2.png',
+    link: 'https://moviemaina.netlify.app/',
+  },
+  {
+    title: 'Mobile Responsive Website',
+    description: 'HTML, Tailwind CSS',
+    bgImage: '/work-4.png',
+    link: 'https://moviemaina.netlify.app/',
+  },
+  {
+    title: 'Hospital Website',
+    description: 'HTML, CSS, JavaScript, Bootstrap',
+    bgImage: '/work-3.png',
+    link: 'https://berat-ayvaz.github.io/BTK-web-frontend-egitim/',
+  },
 ]
+
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Crafting visually appealing and responsive interfaces using modern tools like HTML, CSS, and Figma to deliver clean and user-friendly web layouts.', link: '#' },
