@@ -39,6 +39,7 @@ Siteyi canlı olarak incelemek için: https://beratayvaz.netlify.app/
 
 📧 Email: beeratayvaz@gmail.com
 
-💻 GitHub: github.com/beratayvaz
+💻 GitHub: www.github.com/Berat-Ayvaz
 
-🔗 LinkedIn: linkedin.com/in/beratayvaz
+🔗 LinkedIn: www.linkedin.com/in/berat-ayvaz-2751611b5
+
