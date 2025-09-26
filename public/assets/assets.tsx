@@ -32,42 +32,43 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import linkedIn from '../linkedin-tile.svg';
 import github from '../github-mark.svg';
 import codapen from '../codapen.png'
+import { link } from 'fs';
 
 export const assets = {
-  codapen,
-  github,
-  linkedIn,
-  logo,
-  code_icon,
-  code_icon_dark,
-  edu_icon,
-  edu_icon_dark,
-  project_icon,
-  project_icon_dark,
-  right_arrow_white,
-  logo_dark,
-  mail_icon,
-  mail_icon_dark,
-  profile_img,
-  download_icon,
-  hand_icon,
-  header_bg_color,
-  moon_icon,
-  sun_icon,
-  arrow_icon,
-  arrow_icon_dark,
-  menu_black,
-  menu_white,
-  close_black,
-  close_white,
-  web_icon,
-  mobile_icon,
-  ui_icon,
-  graphics_icon,
-  right_arrow,
-  send_icon,
-  right_arrow_bold,
-  right_arrow_bold_dark
+    codapen,
+    github,
+    linkedIn,
+    logo,
+    code_icon,
+    code_icon_dark,
+    edu_icon,
+    edu_icon_dark,
+    project_icon,
+    project_icon_dark,
+    right_arrow_white,
+    logo_dark,
+    mail_icon,
+    mail_icon_dark,
+    profile_img,
+    download_icon,
+    hand_icon,
+    header_bg_color,
+    moon_icon,
+    sun_icon,
+    arrow_icon,
+    arrow_icon_dark,
+    menu_black,
+    menu_white,
+    close_black,
+    close_white,
+    web_icon,
+    mobile_icon,
+    ui_icon,
+    graphics_icon,
+    right_arrow,
+    send_icon,
+    right_arrow_bold,
+    right_arrow_bold_dark
 };
 
 export const workData = [
@@ -99,14 +100,14 @@ export const workData = [
 
 
 export const serviceData = [
-  { icon: assets.web_icon, title: 'Web design', description: 'Crafting visually appealing and responsive interfaces using modern tools like HTML, CSS, and Figma to deliver clean and user-friendly web layouts.', link: '#' },
-  { icon: assets.mobile_icon, title: ' Visual Design', description: 'Creating engaging visual assets that reflect brand identity, enhance communication, and elevate the user experience across web and mobile platforms.', link: '#' },
-  { icon: assets.ui_icon, title: 'UI/UX design', description: 'Designing intuitive, accessible, and modern user experiences by combining aesthetic visuals with usability principles to ensure smooth user journeys.', link: '' },
-  { icon: assets.graphics_icon, title: ' Web Development', description: 'Building dynamic and efficient web applications using technologies such as JavaScript, React.js, and Next.js — from frontend to backend integration.', link: '' },
+    { icon: assets.web_icon, title: 'Web design', description: 'Crafting visually appealing and responsive interfaces using modern tools like HTML, CSS, and Figma to deliver clean and user-friendly web layouts.', link: '#' },
+    { icon: assets.mobile_icon, title: ' Visual Design', description: 'Creating engaging visual assets that reflect brand identity, enhance communication, and elevate the user experience across web and mobile platforms.', link: '#' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'Designing intuitive, accessible, and modern user experiences by combining aesthetic visuals with usability principles to ensure smooth user journeys.', link: '' },
+    { icon: assets.graphics_icon, title: ' Web Development', description: 'Building dynamic and efficient web applications using technologies such as JavaScript, React.js, and Next.js — from frontend to backend integration.', link: '' },
 ]
 
-export const infoList = [
-  { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Management Information Systems' },
-  { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' },
-  { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Soft Skills', description: 'Problem-solving, teamwork, communication, and adaptability in remote environments.' }
+export const infoList = [ 
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Management Information Systems' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Soft Skills', description: 'Problem-solving, teamwork, communication, and adaptability in remote environments.' }
 ];
