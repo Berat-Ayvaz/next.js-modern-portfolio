@@ -57,7 +57,6 @@ const Contact = () => {
                         alt='Right icon' className='w-4'
                     />
                 </button>
-
             </form>
         </div>
     )

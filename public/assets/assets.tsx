@@ -32,7 +32,10 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import linkedIn from '../linkedin-tile.svg';
 import github from '../github-mark.svg';
 import codapen from '../codapen.png'
+<<<<<<< HEAD
 import { link } from 'fs';
+=======
+>>>>>>> 37ccd8cf10d8daea03ec7b17c976a542d52b25c7
 
 export const assets = {
     codapen,
@@ -72,6 +75,7 @@ export const assets = {
 };
 
 export const workData = [
+<<<<<<< HEAD
   {
     title: 'Responsive Tech Blog',
     description: 'HTML, CSS, JavaScript',
@@ -99,6 +103,30 @@ export const workData = [
 ]
 
 
+=======
+    {
+        title: 'Responsive Tech Blog',
+        description: 'HTML, CSS, JavaScript',
+        bgImage: '/work-1.png',
+    },
+    {
+        title: 'Movie Website',
+        description: 'HTML, Tailwind CSS',
+        bgImage: '/work-2.png',
+    },
+    {
+        title: 'Mobile Responsive Website',
+        description: 'HTML, Tailwind CSS',
+        bgImage: '/work-4.png',
+    },
+    {
+        title: 'Hospital Website',
+        description: 'HTML,CSS,JavaScript,Bootstrap',
+        bgImage: '/work-3.png',
+    },
+]
+
+>>>>>>> 37ccd8cf10d8daea03ec7b17c976a542d52b25c7
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Crafting visually appealing and responsive interfaces using modern tools like HTML, CSS, and Figma to deliver clean and user-friendly web layouts.', link: '#' },
     { icon: assets.mobile_icon, title: ' Visual Design', description: 'Creating engaging visual assets that reflect brand identity, enhance communication, and elevate the user experience across web and mobile platforms.', link: '#' },
