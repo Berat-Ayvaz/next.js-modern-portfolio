@@ -58,7 +58,6 @@ const Contact = () => {
                     />
                 </button>
             </form>
-             <p>Hello world</p>
         </div>
     )
 }
