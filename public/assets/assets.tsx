@@ -32,7 +32,6 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import linkedIn from '../linkedin-tile.svg';
 import github from '../github-mark.svg';
 import codapen from '../codapen.png'
-import { link } from 'fs';
 
 export const assets = {
   codapen,
