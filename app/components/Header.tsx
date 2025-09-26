@@ -1,5 +1,5 @@
 'use client';
-import {assets} from '@/public/assets/assets'
+import { assets } from '@/public/assets/assets'
 import Image from 'next/image';
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
             <h1 className='text-3xl sm:text:6xl lg:text-[66px] font-ovo'>
                 Front-end Web Developer based in Türkiye
             </h1>
-            <p className='max-w-2xl mx-auto font-ovo mt-5 mb-8'>I am a developer who enjoys coding and designing user interfaces. 
+            <p className='max-w-2xl mx-auto font-ovo mt-5 mb-8'>I am a developer who enjoys coding and designing user interfaces.
                 I love creating modern solutions to real-world problems.
             </p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
@@ -27,7 +27,7 @@ const Header = () => {
                         alt="right icon"
                         src={assets.right_arrow}
                         className='w-4' /></a>
-                <a href="/public/Berat_AYVAZ_CV.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
+                <a href="/Berat_Ayvaz_cv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
                     My resume<Image
                         alt="resume icon"
                         src={assets.download_icon}
